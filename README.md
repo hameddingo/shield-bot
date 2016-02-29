@@ -1,3 +1,3 @@
 # shield-bot
 
-edit by: pedi shield 
+#Edit By: Pedi Shield & Hamed Dingo
