@@ -227,26 +227,25 @@ function create_config( )
     "admin",
     "plugins"
     },
-    sudo_users = {138012635,114671225},--Sudo users
+    sudo_users = {138012635,114671225,0,},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text =[[ Shield Bot V 2.3
     Advanced Bot Base On Seed
     
-    @KinG_SuPeR_AdMiN_SHIELD [DeVeLoPeR] 
- @WoW_admin_sheild_WoW [Manager
-  〰〰〰〰〰〰〰〰〰〰〰
-    #Open_Source 
-    @SUD0_SHIELD_PoWeR
-  〰〰〰〰〰〰〰〰〰〰〰
-   Http://8pic.ir/images/s5k8nijzbnny3nqrccee.jpg]
-    
-  〰〰〰〰〰〰〰〰〰〰〰
+@KinG_SuPeR_AdMiN_SHIELD [DeVeLoPeR] 
+@WoW_admin_sheild_WoW [Manager
+〰〰〰〰〰〰〰〰〰〰〰
+#Open_Source 
+@SUD0_SHIELD_PoWeR
+〰〰〰〰〰〰〰〰〰〰〰
+Http://8pic.ir/images/s5k8nijzbnny3nqrccee.jpg]
+〰〰〰〰〰〰〰〰〰〰〰
  ♻️ You can send your Ideas and messages to Us By sending them into bots account by this command :
    تمامی درخواست ها و همه ی انتقادات و حرفاتونو با دستور زیر بفرستین به ما
    !feedback (your ideas and messages)
 ]],
-    help_text_realm = [[
+help_text_realm = [[
 Realm Commands:
 
 !creategroup [Name]
@@ -301,7 +300,6 @@ Kick all members and delete realm
 Promote an admin by id OR username *Sudo only
 ادمینی را اضافه بکنید
 
-
 !removeadmin [id|username]
 Demote an admin by id OR username *Sudo only
 ️ادمینی را با این دستور صلب مقام میکنید 
@@ -313,7 +311,6 @@ Get a list of all groups
 !list realms
 Get a list of all realms
 لیست گروه های مادر را میدهد
-
 
 !log
 Get a logfile of current group or realm
@@ -332,11 +329,9 @@ You Can user both "!" & "/" for them
 
 🇸 🇭 🇮 🇪 🇱 🇩 ™
 
-
 ]],
-    help_text = [[
+help_text = [[
 Banhammer : 
-
 
 Help For Banhammer دستوراتی برای کنترل گروه
 
@@ -345,7 +340,6 @@ Help For Banhammer دستوراتی برای کنترل گروه
 
 !Ban @UserName or ID
 برای بن کردن شخص اسفاده میشود . با ریپلی هم میشه
-
 
 !Unban @UserName
 برای آنبن کردن شخصی استفاده میشود . همچنین با ریپلی هم میشه
@@ -357,7 +351,6 @@ For Admins :
 
 !unbanall ID
 برای آنبن کردن استفاده میشود ولی فقط با ای دی میشود
-
 〰〰〰〰〰〰〰〰〰〰
 2. GroupManager :
 
@@ -367,21 +360,17 @@ For Admins :
 !lock tag
 برای مجوز ندادن به اعضا از استفاده کردن @  و #  برای تگ
 
-
 !Creategp "GroupName"
 you can Create group with this comman
 با این دستور برای ساخت گروه استفاده بکنید
-
 
 !lock member
 For locking Inviting users
 برای جلوگیری از آمدن اعضای جدید استفاده میشود
 
-
 !lock bots
 for Locking Bots invitation
 برای جلوگیری از ادد کردن ربا استفاده میشود
-
 
 !lock name
 To lock the group name for every bodey
@@ -422,11 +411,9 @@ To lock settings of group and unchange able
 To lock using badwords in group
 برای جلوگیری از استفاده کردن حرف های رکیک استفاده میشود
 
-
 !lock join 
 to lock joining the group by link
 برای جلوگیری از وارد شدن به کروه با لینک
-
 
 !lock flood
 lock group flood
@@ -460,7 +447,6 @@ get members id
 Says every thing he knows about a group
 در مورد تمامی اطلاعات ثبت شده در مورد گروه میدهد
 
-
 !newlink
 Changes or Makes new group link
 لینک گروه رو عوض میکنه 
@@ -479,7 +465,6 @@ Admins :
 to add the group as knows
 برای مجوز دادن به ربات برای استفاده در گروه
 
-
 !rem
 to remove the group and be unknown
 برای ناشناس کردن گروه برای ربات توسط مدیران اصلی
@@ -492,7 +477,6 @@ For Set a Owner of group from realm
 to add a Global admin to the bot
 برای ادد کردن ادمین اصلی ربات
 
-
 !removeadmin [username]
 to remove an admin from global admins
 برای صلب ادمینی از ادمینای اصلی
@@ -500,34 +484,27 @@ to remove an admin from global admins
 !sms [id] (text)
 To send a message to an account by his/her ID
 برای فرستادن متنی توسط ربات به شخصی با ای دی اون
-
-
 〰〰〰〰〰〰〰〰〰〰〰
 3.!stats
 To see the group stats
 برای دیدن آمار گروه 
-
 〰〰〰〰〰〰〰〰
 4. Feedback
 !feedback (text)
 To send your ideas to the Moderation group
 برای فرستادن انتقادات و پیشنهادات و حرف خود با مدیر ها استفاده میشه
-
 〰〰〰〰〰〰〰〰〰〰〰
 5. Tagall
 !tagall (text)
 To tags the every one and sends your message at bottom
 تگ کردن همه ی اعضای گروه و نوشتن پیام شما زیرش
 
-
 You Can user both "!" & "/" for them
 می توانید از دو شکلک !  و / برای دادن دستورات استفاده کنید
-
-  〰〰〰〰〰〰〰〰〰〰〰
+〰〰〰〰〰〰〰〰〰〰〰
 @tel_shield
 کانال رسمی بات و اتحاد شیلد
-  〰〰〰〰〰〰〰〰〰〰〰
-
+〰〰〰〰〰〰〰〰〰〰〰
 🇸 🇭 🇮 🇪 🇱 🇩 ™
 
 ]]
