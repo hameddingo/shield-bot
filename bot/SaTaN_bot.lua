@@ -227,7 +227,7 @@ function create_config( )
     "admin",
     "plugins"
     },
-    sudo_users = {138012635,114671225} --Sudo users
+    sudo_users = {138012635,114671225},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text =[[ Shield Bot V 2.3
