@@ -234,12 +234,14 @@ function create_config( )
     Advanced Bot Base On Seed
     
     @KinG_SuPeR_AdMiN_SHIELD [DeVeLoPeR] 
- @WoW_admin_sheild_WoW [Manager]
-
+ @WoW_admin_sheild_WoW [Manager
+  〰〰〰〰〰〰〰〰〰〰〰
     #Open_Source 
-    [ @SUD0_SHIELD_PoWeR ] [ Http://8pic.ir/images/s5k8nijzbnny3nqrccee.jpg]
+    @SUD0_SHIELD_PoWeR
+  〰〰〰〰〰〰〰〰〰〰〰
+   Http://8pic.ir/images/s5k8nijzbnny3nqrccee.jpg]
     
-  〰〰〰〰〰〰〰〰
+  〰〰〰〰〰〰〰〰〰〰〰
  ♻️ You can send your Ideas and messages to Us By sending them into bots account by this command :
    تمامی درخواست ها و همه ی انتقادات و حرفاتونو با دستور زیر بفرستین به ما
    !feedback (your ideas and messages)
